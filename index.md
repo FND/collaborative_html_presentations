@@ -233,7 +233,7 @@ e.g. automatic syntax highlighting by including
 <s>for efficiency</s><br>
 Because We Can!
 
-<hr class=pragma style="margin-top: -1em; border: 2px solid #AAA; padding: 10px; line-height: 1.4em;">
+<hr class=pragma style="margin-top: -1em; border: 2px solid #AAA; padding: 10px 10px 10px 65px; line-height: 1.4em;">
 
     decks = index part1 part2
     targets = $(decks:%=%.html)
