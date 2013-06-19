@@ -1,0 +1,7 @@
+pre.compact {
+    line-height: 1.5em;
+}
+
+pre.ascii code:before {
+    content: ""; /* disable line numbering */
+}

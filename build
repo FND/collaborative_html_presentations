@@ -1,0 +1,3 @@
+#!/usr/bin/env sh
+
+web-slides/markdown2shower < index.md > index.html

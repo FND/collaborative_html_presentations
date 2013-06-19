@@ -1,0 +1,3 @@
+[submodule "web-slides"]
+	path = web-slides
+	url = git@github.com:innoq/web-slides.git
