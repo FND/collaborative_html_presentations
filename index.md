@@ -224,10 +224,43 @@ e.g. automatic syntax highlighting by including
 
 
 ----
+# Build Automation
+
+<pre class="ascii" style="float: right; margin-top: -1em; padding: 2px 10px; background-color: #EEE;">Makefile</pre>
+
+<hr class=pragma style="clear: right; float: right; margin-top: 3em; padding-right: 10px; text-align: right;">
+
+<s>for efficiency</s><br>
+Because We Can!
+
+<hr class=pragma style="margin-top: -1em; border: 2px solid #AAA; padding: 10px; line-height: 1.4em;">
+
+    decks = index part1 part2
+    targets = $(decks:%=%.html)
+
+    .PHONY: all
+    .DELETE_ON_ERROR:
+
+    all: $(targets)
+
+    $(targets): template.html
+
+    %.html: %.md
+    	web-slides/markdown2shower < $< > $@
+
+<hr class="pragma notes">
+
+* thanks to andreask and stefanb
+
+
+----
 # Caveats
 
 * Not For Everyone™: requires at least some HTML/CSS fu
 * terrible project/repo name
+* Windows support?
+
+<blockquote style="float: right; margin-top: -3.5em;">lolwut</blockquote>
 
 
 ----
