@@ -120,10 +120,10 @@ nicely (relatively) minimalistic
 * clearly this could be simplified/automated
 
 
-----
+<hr class="slide code">
 # Basic Structure
 
-<hr class="pragma compact" style="margin-top: -1em;">
+<hr class="pragma compact">
 
     My Title
     My Tagline
@@ -139,10 +139,10 @@ nicely (relatively) minimalistic
     ...
 
 
-----
+<hr class="slide code">
 # Slide Types
 
-<hr class="pragma compact" style="margin-top: -1em;">
+<hr class="pragma compact">
 
     <hr class="slide title">
     # Welcome
@@ -221,17 +221,17 @@ e.g. automatic syntax highlighting by including
 [Prettify](https://code.google.com/p/google-code-prettify/)
 
 
-----
+<hr class="slide code">
 # Build Automation
 
-<pre class="ascii" style="float: right; margin-top: -1em; padding: 2px 10px; background-color: #EEE;">Makefile</pre>
+<pre class="ascii" style="float: right; padding: 2px 10px; background-color: #EEE;">Makefile</pre>
 
 <hr class=pragma style="clear: right; float: right; margin-top: 3em; padding-right: 10px; text-align: right;">
 
 <s>for efficiency</s><br>
 Because We Can!
 
-<hr class=pragma style="margin-top: -1em; border: 2px solid #AAA; padding: 10px 10px 10px 65px; line-height: 1.4em;">
+<hr class=pragma style="border: 2px solid #AAA; padding: 10px 10px 10px 65px; line-height: 1.4em;">
 
     decks = index part1 part2
     targets = $(decks:%=%.html)

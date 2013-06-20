@@ -1,7 +1,11 @@
+.slide.code pre {
+	margin-top: -1em;
+}
+
 pre.compact {
-    line-height: 1.5em;
+	line-height: 1.5em;
 }
 
 pre.ascii code:before {
-    content: ""; /* disable line numbering */
+	content: ""; /* disable line numbering */
 }
