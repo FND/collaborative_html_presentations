@@ -13,7 +13,7 @@ FND &mdash; June 20, 2013
 
 [innoQ Document Converter (iqdocc)](https://github.com/innoq/iq_docc)
 
-* collaorative editing & versioning<br>
+* collaborative editing & versioning<br>
   &rArr; plain-text source
 * (re)use for presentations and handouts<br>
   &rArr; HTML + PDF output
@@ -256,7 +256,8 @@ Because We Can!
 ----
 # Caveats
 
-* Not For Everyone™: requires at least some HTML/CSS fu
+* Not For Everyone™<br>
+  requires at least some HTML/CSS fu
 * terrible project/repo name
 * Windows support?
 
