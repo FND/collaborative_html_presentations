@@ -75,22 +75,20 @@ nicely (relatively) minimalistic
 
 <hr class="pragma ascii compact" style="line-height: 1em;">
 
-    <instance> --[INCLUDES]-> innoq/web-slides
-                                      |
-                                   [FORKS]
-                                      |
-                                      v
-                                 FND/webrez
-                                      |
-                                 [INCLUDES]
-                                      |
-                                      v
-                                 FND/shower
-                                      |
-                                   [FORKS]
-                                      |
-                                      v
-                                shower/shower
+    ​            includes
+    <instance> → → → → → → innoq/web-slides
+                                   ⇣
+                                   ⇣ forks
+                                   ⇣
+                              FND/webrez
+                                   ↓
+                                   ↓ includes
+                                   ↓
+                              FND/shower
+                                   ⇣
+                                   ⇣ forks
+                                   ⇣
+                             shower/shower
 
 <hr class="pragma notes">
 
