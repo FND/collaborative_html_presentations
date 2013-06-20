@@ -199,8 +199,11 @@ nicely (relatively) minimalistic
     * lorem ipsum
     * dolor sit amet
 
-&rarr; displayed in browsers' console (adapted from
-[@codepo8](http://christianheilmann.com/2012/08/15/browsers-have-a-presenter-mode-console-info/))
+&rarr; displayed in browsers' console
+<small style="font-size: 0.8em;">
+    (adapted from
+    <a href="http://christianheilmann.com/2012/08/15/browsers-have-a-presenter-mode-console-info/">@codepo8</a>)
+</small>
 
 <hr class="pragma notes">
 
