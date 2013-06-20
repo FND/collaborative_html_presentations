@@ -256,6 +256,8 @@ Because We Can!
 
 * Not For Everyone™<br>
   requires at least some HTML/CSS fu
+* authoring tools: `$EDITOR`<br>
+  i.e. no WYSIWYG
 * terrible project/repo name
 * Windows support?
 
